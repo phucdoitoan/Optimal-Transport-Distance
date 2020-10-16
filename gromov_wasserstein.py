@@ -46,8 +46,15 @@ class Entropic_GromovWasserstein(nn.Module):
 		else:
 			self.Entropic_W = Entropic_Wasserstein(eps, w_max_iter, w_thresh, verbose=verbose)
 
-	def forward(self, x, y, px, py, intra_loss_type='L2'):
-		
+	def forward(self, x, y, px, py, intra_loss_type='L2', dtype='double'):
+		if dtype == 'double':
+			x = x.double()
+			y = y.double()
+			px = px.double()
+			py = py.double()            
+		else:
+			pass
+
 		Cx = intra_cost_matrix(x, cost_type=intra_loss_type)
 		Cy = intra_cost_matrix(y, cost_type=intra_loss_type)
 

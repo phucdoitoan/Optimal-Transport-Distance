@@ -39,7 +39,15 @@ class Entropic_Wasserstein(nn.Module):
 
 		self.verbose = verbose
 
-	def forward(self, x, y, p, q, cost_type='L2'):
+	def forward(self, x, y, p, q, cost_type='L2', dtype='double'):
+        
+		if dtype == 'double':
+			x = x.double()
+			y = y.double()
+			p = p.double()
+			q = q.double()
+		else:
+			pass
 
 		C = cost_matrix(x, y, cost_type)
 
