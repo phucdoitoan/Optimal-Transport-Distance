@@ -1,4 +1,4 @@
-# Optimal_Transport_Distance
+# Optimal Transport Distance
 
 Pytorch Solvers for the:\
 +) Entropic Regularized Wasserstein distance \[1\]\[2\] \
