@@ -11,7 +11,7 @@ Points clouds x, y are the rotation of each other.
   <img src="https://github.com/phucdoitoan/Optimal_Transport_Distance/blob/main/simple_rotation_points.png" width="450" title="the two points clouds">
 </p>
 
-Transport plan learned by Gromov-Wasserstein distance.
+Transport plan learned by Gromov-Wasserstein distance. \
 +) Relatively large value of eps => denser plan P
 <p align="center">
   <img src="https://github.com/phucdoitoan/Optimal_Transport_Distance/blob/main/simple_rotation_P_unstable.png" width="450" title="Relatively large of eps">
