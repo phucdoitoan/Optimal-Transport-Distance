@@ -2,7 +2,7 @@
 
 Solvers for the:\
 +) Entropic Regularized Wasserstein distance \[1\]\[2\] \
-+) Entropic regularized Gromov-Wasserstein distance \[1\] \[3\] 
++) Entropic Regularized Gromov-Wasserstein distance \[1\] \[3\] 
 
 Reference:
 
