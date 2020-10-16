@@ -1,6 +1,6 @@
 # Optimal_Transport_Distance
 
-Solvers for the:\
+Pytorch Solvers for the:\
 +) Entropic Regularized Wasserstein distance \[1\]\[2\] \
 +) Entropic Regularized Gromov-Wasserstein distance \[1\] \[3\] 
 
