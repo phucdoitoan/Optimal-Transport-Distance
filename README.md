@@ -5,7 +5,6 @@ Pytorch Solvers for the:\
 +) Entropic Regularized Gromov-Wasserstein distance \[1\] \[3\] 
 
 Examples:
-
 Points clouds x, y are the rotation of each other.
 <p align="center">
   <img src="https://github.com/phucdoitoan/Optimal_Transport_Distance/blob/main/simple_rotation_points.png" width="450" title="the two points clouds">
