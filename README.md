@@ -1,6 +1,6 @@
 # Optimal_Transport_Distance
 
-Solver for the:\
+Solvers for the:\
 +) Entropic Regularized Wasserstein distance \[1\]\[2\] \
 +) Entropic regularized Gromov-Wasserstein distance \[1\] \[3\] 
 
