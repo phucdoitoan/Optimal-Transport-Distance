@@ -109,10 +109,19 @@ class Entropic_GromovWasserstein(nn.Module):
 			def h2(b):
 				return 2*b 
 
-			return f1, f2, h1, h2
-
 		elif inter_loss_type == 'kl_loss':
-			pass
+
+			def f1(a):
+				return a * torch.log(a) - a
+			def f2(b):
+				return b
+			def h1(a):
+				return a
+			def h2(b):
+				return torch.log(b)
+
 		else:
 			raise NotImplementedError('Inter loss type %s is not implemented!' %(inter_loss_type))
+
+		return f1, f2, h1, h2
 
